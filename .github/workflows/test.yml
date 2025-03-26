@@ -3,8 +3,8 @@ name: Check Repo2 Changes and Notify Teams
 on:
   workflow_dispatch:
   
-  schedule:
-    - cron: '0 * * * *'  # This runs the workflow every hour. Adjust the cron expression as needed.
+ # schedule:
+ #  - cron: '0 * * * *'  # This runs the workflow every hour. Adjust the cron expression as needed.
 
 jobs:
   check-changes:
